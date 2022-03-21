@@ -1,0 +1,305 @@
+:root {
+    --color-main-background: #5aecc9;
+    --color-main: #ff6255;
+}
+
+.body {
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+    background-color: white;
+}
+
+header {
+    z-index: 20;
+    background-color: white;
+}
+
+header img {
+    width: 70px;
+}
+
+.navbar a {
+    font-weight: 600;
+}
+
+
+/* header  */
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    border: 1px solid var(--color-main-background);
+    color: white !important;
+    background-color: var(--color-main-background);
+    border-radius: 10px;
+}
+
+
+/* end header */
+
+
+/* Start landing */
+
+.landing {
+    background-color: var(--color-main-background);
+    height: calc(100vh - 82px);
+}
+
+.main-btn {
+    background-color: var(--color-main);
+    color: white;
+}
+
+.landing .btn:focus {
+    box-shadow: none;
+}
+
+
+/* Stop landing */
+
+
+/*  features*/
+
+.features .card {
+    border: none;
+}
+
+.features i {
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    background-color: var(--color-main-background);
+    color: white;
+}
+
+
+/*  End features*/
+
+
+/* start design */
+
+.designSection {
+    background-color: var(--color-main);
+    color: white;
+}
+
+.textHead {
+    margin-bottom: 50px;
+}
+
+.textHead p {
+    font-size: 0.7em;
+    width: 50%;
+}
+
+.textHead h1 {
+    font-weight: 400;
+}
+
+.show img {
+    width: 70%;
+}
+
+@media (max-width: 767px) {
+    .textHead p {
+        width: 100%;
+    }
+    .show img {
+        width: 100%;
+    }
+}
+
+
+/* End design  */
+
+
+/* start res */
+
+.res a {
+    width: fit-content;
+}
+
+.res .text {
+    width: 50%;
+}
+
+@media (max-width: 767px) {
+    .res .text {
+        width: 100%;
+        margin-top: 40px;
+    }
+    .res .content {
+        justify-content: center !important;
+    }
+    .res .imgAds img {
+        width: 70%;
+    }
+    .res .text {
+        text-align: center;
+    }
+    .res .text .button {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+/* end res */
+
+
+/* Skills */
+
+.skills {
+    background-color: var(--color-main-background);
+    color: white;
+}
+
+.skills .kind {
+    /* pass */
+}
+
+@media (max-width: 767px) {
+    .skills .kind ul {
+        font-size: 12px;
+        align-items: center;
+    }
+}
+
+.skills .kind ul {
+    flex-direction: row;
+    color: white !important;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.skills .kind ul li {
+    width: fit-content;
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+    transition-duration: 0.4s;
+    text-align: center;
+}
+
+.skills .kind li:hover,
+.skills .kind li:focus {
+    border: 1px solid var(--color-main);
+    background-color: var(--color-main);
+    color: white;
+    border-radius: 20px;
+}
+
+.skills .content-img {
+    width: 100%;
+}
+
+.skills .content-card p {
+    /* font-size: 1em; */
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.skills .content-card h3 {
+    color: black;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.2em;
+    padding: 10px 0 0;
+}
+
+.skills .button .skin {
+    border: 1px solid var(--color-main);
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: var(--color-main);
+    cursor: pointer;
+}
+
+
+/* End Skills */
+
+
+/* Start Br */
+
+.br {
+    background-color: #233537;
+    color: white;
+}
+
+.br .content {
+    padding: 40px 0;
+}
+
+@media (max-width: 767px) {
+    .br .content {
+        flex-direction: column;
+    }
+}
+
+.br .element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.br .element i {
+    font-size: 4em !important;
+    color: var(--color-main);
+}
+
+.br .element p {
+    font-size: 0.8em !important;
+    margin: 10px 0;
+}
+
+.br .element span {
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+
+/* End Br */
+
+
+/* Start contact */
+
+.contact {
+    background-color: var(--color-main);
+    color: white;
+    padding-bottom: 60px;
+}
+
+.contact input {
+    background-color: transparent;
+    color: white;
+}
+
+.contact input::placeholder {
+    color: white;
+}
+
+.contact button {
+    background-color: #233537;
+    color: white;
+}
+
+
+/* End contact */
+
+
+/* Footer */
+
+footer {
+    background-color: #233537;
+    color: white;
+}
+
+footer span {
+    color: var(--color-main-background);
+}

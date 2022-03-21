@@ -1,1 +1,1 @@
-"# simple-template-wiht-bootstrap" 
+simple-template-wiht-bootstrap
